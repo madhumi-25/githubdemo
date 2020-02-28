@@ -1,89 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22418" started-at="2020-02-20T16:19:08 IST" finished-at="2020-02-20T16:19:31 IST">
+  <suite name="Default suite" duration-ms="16942" started-at="2020-02-26T17:32:58 IST" finished-at="2020-02-26T17:33:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22418" started-at="2020-02-20T16:19:08 IST" finished-at="2020-02-20T16:19:31 IST">
-      <class name="TestCases.TestCase2$TestCase1">
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestCases.TestCase2$TestCase1@49070868]" name="startup" is-config="true" duration-ms="8808" started-at="2020-02-20T16:19:08 IST" finished-at="2020-02-20T16:19:17 IST">
+    <test name="Default test" duration-ms="16942" started-at="2020-02-26T17:32:58 IST" finished-at="2020-02-26T17:33:15 IST">
+      <class name="TestCases.TestCase1">
+        <test-method status="PASS" signature="StartUp()[pri:0, instance:TestCases.TestCase1@27c6e487]" name="StartUp" is-config="true" duration-ms="11705" started-at="2020-02-26T17:32:58 IST" finished-at="2020-02-26T17:33:10 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startup -->
-        <test-method status="FAIL" signature="OrangeHRMAdminpage()[pri:0, instance:TestCases.TestCase2$TestCase1@49070868]" name="OrangeHRMAdminpage" duration-ms="11184" started-at="2020-02-20T16:19:17 IST" finished-at="2020-02-20T16:19:28 IST">
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[move target out of bounds
-  (Session info: chrome=80.0.3987.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'BLT1216', ip: '192.168.1.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BLTUSE~1.BLT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65378}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0930c998d5ed55fbc46d45ed26e9183e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=80.0.3987.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'BLT1216', ip: '192.168.1.216', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\BLTUSE~1.BLT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65378}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0930c998d5ed55fbc46d45ed26e9183e
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-at Pages.OrangeHRMAdmin.OrangeHRMAdminclickjobandjobtitles(OrangeHRMAdmin.java:52)
-at TestCases.TestCase2$TestCase1.OrangeHRMAdminpage(TestCase2.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCases.TestCase1@27c6e487]" name="Login" duration-ms="2805" started-at="2020-02-26T17:33:10 IST" finished-at="2020-02-26T17:33:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrangeHRMAdminpage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.TestCase2$TestCase1@49070868]" name="close" is-config="true" duration-ms="2343" started-at="2020-02-20T16:19:28 IST" finished-at="2020-02-20T16:19:31 IST">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:TestCases.TestCase1@27c6e487]" name="Close" is-config="true" duration-ms="2357" started-at="2020-02-26T17:33:13 IST" finished-at="2020-02-26T17:33:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestCases.TestCase2$TestCase1 -->
+        </test-method> <!-- Close -->
+      </class> <!-- TestCases.TestCase1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class GoogleLink 
+public class GoogleLinkCount 
 {
 		public static void main(String[] args) 
 		{

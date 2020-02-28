@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9232" started-at="2020-02-24T16:55:33 IST" finished-at="2020-02-24T16:55:42 IST">
+  <suite name="Default suite" duration-ms="10233" started-at="2020-02-24T17:25:37 IST" finished-at="2020-02-24T17:25:47 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9232" started-at="2020-02-24T16:55:33 IST" finished-at="2020-02-24T16:55:42 IST">
+    <test name="Default test" duration-ms="10233" started-at="2020-02-24T17:25:37 IST" finished-at="2020-02-24T17:25:47 IST">
       <class name="Seleniumdemo.WebTable">
-        <test-method status="PASS" signature="table()[pri:0, instance:Seleniumdemo.WebTable@7364985f]" name="table" duration-ms="9173" started-at="2020-02-24T16:55:33 IST" finished-at="2020-02-24T16:55:42 IST">
+        <test-method status="PASS" signature="table()[pri:0, instance:Seleniumdemo.WebTable@7364985f]" name="table" duration-ms="10186" started-at="2020-02-24T17:25:37 IST" finished-at="2020-02-24T17:25:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table -->
