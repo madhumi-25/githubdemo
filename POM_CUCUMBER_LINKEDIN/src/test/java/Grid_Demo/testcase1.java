@@ -7,6 +7,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -18,16 +19,19 @@ String baseurl,nodeurl;
 public void setup() throws MalformedURLException
 {
 	baseurl="https://www.linkedin.com/";
-	nodeurl="";
+	nodeurl="http:/192.168.1.215:5566/wd/hub";// i am node
 	DesiredCapabilities capability= DesiredCapabilities.chrome();
 	capability.setBrowserName("chrome");
 	capability.setPlatform(Platform.WINDOWS);
 	driver = new RemoteWebDriver(new URL(nodeurl),capability);
 }
+
+@AfterTest
 public void aftertest()
 {
 	driver.quit();
 }
+
 @Test
 public void simpletest()
 {

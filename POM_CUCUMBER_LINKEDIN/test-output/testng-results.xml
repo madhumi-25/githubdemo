@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25452" started-at="2020-03-03T15:10:12 IST" finished-at="2020-03-03T15:10:37 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25452" started-at="2020-03-03T15:10:12 IST" finished-at="2020-03-03T15:10:37 IST">
+      <class name="DataProvider.dataprovider">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="beforemethod" is-config="true" duration-ms="7112" started-at="2020-03-03T15:10:12 IST" finished-at="2020-03-03T15:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="login" duration-ms="2889" started-at="2020-03-03T15:10:19 IST" data-provider="TestData" finished-at="2020-03-03T15:10:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="beforemethod" is-config="true" duration-ms="5115" started-at="2020-03-03T15:10:22 IST" finished-at="2020-03-03T15:10:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="login" duration-ms="2962" started-at="2020-03-03T15:10:27 IST" data-provider="TestData" finished-at="2020-03-03T15:10:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usertwo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passtwo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="beforemethod" is-config="true" duration-ms="4898" started-at="2020-03-03T15:10:30 IST" finished-at="2020-03-03T15:10:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.dataprovider@64729b1e]" name="login" duration-ms="2345" started-at="2020-03-03T15:10:35 IST" data-provider="TestData" finished-at="2020-03-03T15:10:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userthree]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passthree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- DataProvider.dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
