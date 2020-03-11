@@ -20,7 +20,7 @@ public class WrapperClass {
 				
 				try {
 					//To launch firefox BROWSER
-					if (browser.equalsIgnoreCase("firefox")) {
+					if (browser.equalsIgnoreCase("firefox")) { 
 						driver = new FirefoxDriver();
 					}
 					// TO launch Chrome Browser
@@ -33,8 +33,10 @@ public class WrapperClass {
 					driver.manage().window().maximize(); 
 					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					driver.get(url);
+	
 				
-				} catch (WebDriverException e) {
+				} 
+				catch (WebDriverException e) {
 					System.out.println(" browser could not be launched");
 				}
 			
@@ -44,7 +46,7 @@ public class WrapperClass {
 			{
 				TakesScreenshot ts=((TakesScreenshot)driver);
 				File Source=ts.getScreenshotAs(OutputType.FILE);
-				FileUtils.copyFile(Source,new File(path));
+				FileUtils.copyFile(Source,new File(path));				
 			}
 			//To close the browser
 		   public void quit(){

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38895" started-at="2020-03-11T18:21:55 IST" finished-at="2020-03-11T18:22:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38895" started-at="2020-03-11T18:21:55 IST" finished-at="2020-03-11T18:22:34 IST">
+      <class name="com.TestCase.PhpTravelsTestcase">
+        <test-method status="PASS" signature="launchurl()[pri:0, instance:com.TestCase.PhpTravelsTestcase@7d0587f1]" name="launchurl" is-config="true" duration-ms="12747" started-at="2020-03-11T18:21:55 IST" finished-at="2020-03-11T18:22:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method status="PASS" signature="Testcase()[pri:0, instance:com.TestCase.PhpTravelsTestcase@7d0587f1]" name="Testcase" duration-ms="18555" started-at="2020-03-11T18:22:08 IST" finished-at="2020-03-11T18:22:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.TestCase.PhpTravelsTestcase@7d0587f1]" name="close" is-config="true" duration-ms="7502" started-at="2020-03-11T18:22:26 IST" finished-at="2020-03-11T18:22:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestCase.PhpTravelsTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

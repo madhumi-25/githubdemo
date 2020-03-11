@@ -1,0 +1,4 @@
+username = ap_email
+continue_click = continue
+password = ap_password
+login_click = signInSubmit
